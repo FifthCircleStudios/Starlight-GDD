@@ -1,28 +1,25 @@
 site_name: Starlight - Development Documentation
 site_url: https://fifthcirclestudios.github.io/Starlight-GDD/
-site_author: Fifth Circle Studios, Jordan Pryor; & Originally Martin Donath
+site_author: Fifth Circle Studios, Jordan Pryor
 
 # Repository
 repo_name: FifthCircleStudios/Starlight-GDD
 repo_url: https://github.com/FifthCircleStudios/Starlight-GDD
 
 # Copyright
-copyright: Copyright &copy; 2024 Fifth Circle Studios, Copyright &copy; 2016 - 2024 Martin Donath, 
+copyright: Copyright &copy; 2024 Fifth Circle Studios
+
+nav:
+    - Home: index.md
+    - Getting Started: nav/getting-started.md
+    - Settings:
+      - nav/settings/custom-highlight.md
+    - Development:
+      - nav/development/development-guide.md
+      - nav/development/release-notes.md
+
 
 theme:
-  name: material
-  custom_dir: overrides
-  icon:
-    logo: logo-monochrome
-  
-
-plugins:
-  - social:
-      cards_layout: default/variant
-      cards_layout_options:
-        background_image: layouts/background_normal.png
-        background_color: transparent
-      cards_layout_dir: layouts
-
-watch:
-  - layouts
+  name: dracula
+  logo: assets/img/dracula.png
+  favicon: assets/img/favicon.ico
