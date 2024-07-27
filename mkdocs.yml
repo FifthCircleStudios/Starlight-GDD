@@ -21,5 +21,5 @@ nav:
 
 theme:
   name: dracula
-  logo: assets/Starlight_Logo.png
+  logo: "https://github.com/FifthCircleStudios/Starlight-GDD/blob/main/assets/Starlight_Logo.png"
   favicon: assets/img/favicon.ico
