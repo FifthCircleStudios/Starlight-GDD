@@ -30,7 +30,7 @@ jobs:
           key: mkdocs-dracula-${{ env.cache_id }}
           path: .cache
           restore-keys: |
-            mkdocs-material-
+            mkdocs-dracula-
       - run: pip install mkdocs-dracula-theme
 
 
