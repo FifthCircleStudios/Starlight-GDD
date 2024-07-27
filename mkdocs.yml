@@ -20,15 +20,15 @@
 
 # Project information
 site_name: Starlight - Development Documentation
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_url: https://fifthcirclestudios.github.io/Starlight-GDD/
 site_author: Fifth Circle Studios, Jordan Pryor, & Originally Martin Donath
 site_description: >-
   Write your documentation in Markdown and create a professional static site in
   minutes – searchable, customizable, in 60+ languages, for all devices
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: FifthCircleStudios/Starlight-GDD
+repo_url: https://github.com/FifthCircleStudios/Starlight-GDD
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2024 Martin Donath, Copyright &copy; 2024 Fifth Circle Studios
