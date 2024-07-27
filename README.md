@@ -1,59 +1,73 @@
-# A Material for Mkdocs Social Cards Template
+# Dracula for [Mkdocs](https://www.mkdocs.org/)
 
-The purpose of the template in this repository is to give you a starting point
-for setting up social cards for your projects, both standard ones and custom
-cards for specific kinds of pages.
+> A dark theme for [Mkdocs](https://www.mkdocs.org/).
 
-It reflects the results you get by going through the [social cards tutorials] 
-in the documentation. 
+![Screenshot](https://raw.githubusercontent.com/dracula/mkdocs/main/screenshot.png)
 
-[social cards tutorials]: https://squidfunk.github.io/mkdocs-material/tutorials#social-cards
+## Install
 
-## Requirements
+### Installation MkDocs
 
-To use all the features this template uses, you need the [Insiders
-Edition] of Material for MkDocs but it should be easy enough to strip it down so
-that it works with the public version.
+To install MkDocs, run the following command from the command line:
 
-[Insiders Edition]: https://squidfunk.github.io/mkdocs-material/insiders/
-
-You will need to install the Cairo [image processing dependency] to use this
-template.
-
-[image processing dependency]: https://squidfunk.github.io/mkdocs-material/plugins/requirements/image-processing
-
-## Using it
-
-This is a [template repository], so you can create as many repositories from it 
-as you like (unlike forks of which you can only have one at a time). These
-repositories will contain only a single commit to start with, instead of the whole 
-history of the template. Also, you can create a private repository from this template 
-(while forks inherit the visibility settings from the original).
-
-[template repository]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
-
-Simply hit the `Use this template` button above. You can set the specifics of your 
-new repository from there.
-
-## Project layout
-
-The following shows the layout of the files in this template. Note that you can
-configure Material for MkDocs to use a different layout, this is simply the
-default.
-
-```
-docs/
-    index.md                 # The documentation homepage.
-    changelog.md             # changelog, used to demonstrate custom layout
-    events/                  # subdirectory that contains event pages
-        .meta.yml            # metadata for event pages
-        firstevent.md        # an example event page
-layouts/                     # directory for custom layouts and assets
-    background_normal.png    # background image for 'normal' (not event)  pages
-    release.yml              # custom layout for the changelog.md page
-mkdocs.yml                   # The configuration file.
-overrides/                   # Theme overrides directory
-    .icons/                  # directory for custom icons
-        logo-monochrome.svg  # SVG for logo used as icon
+```bash
+pip install mkdocs
 ```
 
+### Installation theme
+
+Install the theme using PIP:
+
+```bash
+pip install mkdocs-dracula-theme
+```
+
+### Activating theme
+
+After the theme is installed, edit your `mkdocs.yml` file and set the theme name to `dracula`:
+
+```yml
+theme:
+    name: dracula
+```
+
+All instructions can be found at [draculatheme.com/mkdocs](https://draculatheme.com/mkdocs).
+
+## Team
+
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/mkdocs/graphs/contributors).
+
+| [![Fernando Celmer](https://github.com/FernandoCelmer.png?size=100)](https://github.com/FernandoCelmer) | [![Lautaro Linquimán](https://github.com/Ymil.png?size=100)](https://github.com/Ymil) |
+| ------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| [Fernando Celmer](https://github.com/FernandoCelmer)                                                    | [Lautaro Linquimán](https://github.com/Ymil)  |
+
+## Community
+
+- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
+- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
+- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+
+## Getting Help
+
+We use GitHub issues for tracking bugs and feature requests and have limited bandwidth to address them. If you need anything, I ask you to please follow our templates for opening issues or discussions.
+
+- 🐛 [Bug Report](https://github.com/dracula/mkdocs/issues/new/choose)
+- 📕 [Documentation Issue](https://github.com/dracula/mkdocs/issues/new/choose)
+- 🚀 [Feature Request](https://github.com/dracula/mkdocs/issues/new/choose)
+- 💬 [General Question](https://github.com/dracula/mkdocs/issues/new/choose)
+
+## Commit Style
+
+- ⚙️ FEATURE
+- 📝 PEP8
+- 📌 ISSUE
+- 🪲 BUG
+- 📘 DOCS
+- 📦 PyPI
+- ❤️️ TEST
+- ⬆️ CI/CD
+- ⚠️ SECURITY
+
+## License
+
+[MIT License](./LICENSE)
