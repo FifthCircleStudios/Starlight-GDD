@@ -17,8 +17,6 @@ theme:
   
 
 plugins:
-  - search
-  - meta
   - social:
       cards_layout: default/variant
       cards_layout_options:
