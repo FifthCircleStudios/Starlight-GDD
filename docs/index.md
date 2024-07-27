@@ -71,8 +71,9 @@ Learn more about the Locations, Story, and Characters of the game:
 
 This Design Document is maintained by Fifth Circle Studios and a bunch of [awesome contributors](https://github.com/fifthcirclestudios).
 
-| [![Jordan Pryor](https://github.com/jordan-pryor.png?size=100)](https://github.com/jordan-pryor)| ------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| [Jordan Pryor](https://github.com/jordan-pryor)                                                    | 
+| [![Jordan Pryor](https://github.com/jordan-pryor.png?size=100)](https://github.com/jordan-pryor) |
+| ------------------------------------------------------------------------------------------------- |
+| [Jordan Pryor](https://github.com/jordan-pryor)   
 
 ## Social Media
 
